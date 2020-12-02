@@ -5,3 +5,15 @@
   margin-right: auto;
   width: 50%;
 }
+
+.twoColumns{
+    column-count: 1;
+}
+
+/* >= large devices */
+@media (min-width: 992px) {
+    .twoColumns{
+        column-gap: 30px;
+        column-count: 2;
+    }
+}
