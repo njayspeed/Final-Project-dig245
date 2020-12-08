@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta tags, links to css, etc. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Final Project DIG245</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $("#postTQModal").modal('show');
+    });
+  </script>
+</head>
+
+<body>
+  <!-- visible content goes here -->
+
+  <!-- <div class="container"> -->
+  <div class="modal fade" id="postTQModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Trick Questions</h5>
+          <button type="button" class="close" aria-label="Close">
+            <a href="index.html"><span style="color: black;" aria-hidden="true">&times;</span></a>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="row center">
+                    <div class="col">
+                        <img class = "logosize" src="./designs/logo.png" alt="logo">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <p>The dark pattern you just encountered was trick questions. The trick questions dark pattern usually 
+                        shows up when filling in a form/ signing up for a website. While filling in a form you respond to a question 
+                        that tricks you into giving an answer you didn't intend. When glanced upon quickly the question appears to ask 
+                        one thing, but when read carefully it asks another thing entirely. In the previous example, the thing you should 
+                        pay attention to is the 3 checkboxes at the bottom of the form shown below.   
+                    </p>
+                    <img style="border-color: black;" src="./assets/img/TQcheckboxes.png" alt="Checkboxes">
+                    <p style="margin-top: 10px;">The construction of the sentences is purposefully confusing and tries to trick users into subscribing to product 
+                        offers. Also note how the boxes are already checked for you. If you do not want to sign up for any product offers, 
+                        you would have to uncheck all the boxes. Leaving one box checked would result in you signing up for product offers. 
+                        Where most people tend to mess up is they read through the options too quickly and don’t understand them or they 
+                        don’t read them at all. Similar to the last example, it is your choice whether or not you want to sign up for the 
+                        product offers. However, just make sure you know what you are signing up for, and if you don’t understand then call 
+                        customer service and ask them for clarification. Click the next button to continue. 
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <a href="./index.html"><button type="button" class="btn btn-secondary" style="background-color: black;">Close</button></a>
+            <a href="./roachMotel.html"><button type="button" class="btn btn-primary" style="background-color: gray; border: grey;">Next</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script> $(function () { $("#myModal").modal('show'); }); </script>
+  <!-- links to javascripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

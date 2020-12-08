@@ -1,4 +1,11 @@
 
+body{
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, grey, white);
+}
 .center {
   display: block;
   margin-left: auto;
@@ -17,3 +24,78 @@
         column-count: 2;
     }
 }
+
+.logosize{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cstext1{
+    text-align: center;
+    font-family: Garamond;
+    font-weight: 100%;
+    font-size: 40px;
+}
+
+.cstext2{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 100px;
+}
+
+.cstext3{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 35px;
+}
+
+.cstext4{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.cstext5{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 13px;
+    margin: 0;
+    text-decoration: underline;
+    color: black;
+}
+
+.cstext6{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 8px;
+    margin: 0;
+}
+
+.emailbox{
+    border-radius: 0%;
+    border-color: black;
+    text-align: center;
+    width: 300px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Garamond;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
